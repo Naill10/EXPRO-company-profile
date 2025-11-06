@@ -10,14 +10,7 @@
     background-repeat: no-repeat;
 
 }
-.fa-linkedin:hover{
-    color: blue;
-    transition: all 0.5s ease;
-}
-.fa-facebook.fa-facebook:hover{
-    color: blue;
-    transition: all 0.5s ease;
-}
+
 .navbar i{
     color: white;
 }
@@ -25,6 +18,18 @@
     cursor: pointer;
 
 }
+@media (max-width: 991px) {
+    .navbar-collapse{
+        text-align: center;
+      
+    }.navbar-nav{
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+}
+}
+
 .project img{
     height: 220px;
     transition: all 0.3s ease;
@@ -36,3 +41,38 @@
     cursor: pointer;
     transition: all 0.3s ease;
 }
+#navbar{
+    transition: 0.3s ease;
+}
+#navbar.scrolled{
+    background-color: rgb(0, 102, 255);
+    padding: 3px;
+} 
+.fa-regular{
+    padding-right: 20px;
+}
+.teks p{
+    width: 100%;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    word-wrap: break-word;
+}
+.picture{
+    height: 400px;
+    width: 250px;
+}
+@media (max-width: 340px) {
+    .picture img{
+        width: 50%;
+      /* height: 40px;
+      width: 2px; */
+    }
+    #col_service{
+        display: flex;
+        flex: 1;
+    }
+    
+}
+    
+
