@@ -1,7 +1,7 @@
 // let btn = document.getElementById('btn')
 // let project = document.getElementById('project')
 let service = document.getElementById('service')
-
+let FAQ = document.getElementById('FAQ')
 // window.addEventListener('scroll', function(){
 //     let value = this.window.scrollY;
 // })
